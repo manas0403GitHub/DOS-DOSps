@@ -373,7 +373,7 @@ if ($game -eq "HANG"){
 
         Clear-Host
 
-        $password = Read-Host "Enter the code" -Prompt
+        $password = Read-Host "Enter the code"
         if ($password -eq $number -or $password -eq $word -or $password -eq $symbol){
             Write-Host "Correct!"
             Write-Host "Wait for the next code..."
