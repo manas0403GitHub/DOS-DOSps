@@ -388,7 +388,7 @@ if ($game -eq "HANG"){
             Write-Host "Game Over!"
             Write-Host "Your Score is $score/5"
 
-            $again = Read-Host "Again?Y/N" -Prompt
+            $again = Read-Host "Again?Y/N"
             if ($again -eq "Y"){
                 Write-Host "Reloading Game..."
                 Start-Sleep -Seconds 1
